@@ -1,0 +1,26 @@
+{
+  "name": "mongodb-stats",
+  "version": "1.0.0",
+  "description": "Simple module to quickly get statistics from mongodb by dates to chartjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertincx/mongodb-stats.git"
+  },
+  "keywords": [
+    "mongodb",
+    "metrics",
+    "statistics",
+    "stat",
+    "stats"
+  ],
+  "author": "albertincx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertincx/mongodb-stats/issues"
+  },
+  "homepage": "https://github.com/albertincx/mongodb-stats#readme"
+}
