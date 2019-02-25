@@ -1,4 +1,4 @@
-Simple Module to quickly get statistics from mongodb by dates to [chartjs](https://chartjs.org/)
+Simple, async, ES6 based module to get statistics quickly from mongodb by dates to [chartjs](https://chartjs.org/)
 
 Scope
 ============
