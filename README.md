@@ -1,5 +1,7 @@
 Simple, async, ES6 based module to get statistics quickly from mongodb by dates to [chartjs](https://chartjs.org/)
 
+[Demo](https://safiullin.io/mongodb-stats2/)
+
 Scope
 ============
 * aggregate by today, week, month
