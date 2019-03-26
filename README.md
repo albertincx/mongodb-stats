@@ -77,11 +77,24 @@ Example:
 
 `search[k]=val` - advanced filter options
 
+If you have a lot of data and they are constantly being added, then by default this response will be built.
+
+`[num,num,num,num,num....]`
+
+If there is old data then you need to add a limit
+
+`limit=1000` - limit if you get old stats
+
 `ldate=date.toISOString` - last date, offset by date
+
+, then such a response will return
+
+`[{d,val},{d,val},{d,val}]`
+
+where `d` - last date, `val` - stat value
 
 TODO
 ========
-* avg, sum aggregation
+* sum aggregation
 * parse from, to params
 * pass models by collection names
-* demo
