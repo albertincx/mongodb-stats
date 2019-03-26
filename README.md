@@ -71,6 +71,14 @@ Example:
 
 `type=m` - by month
 
+`avg=FIELD_NAME` - avg by fieldname
+
+`max=FIELD_NAME` - max value by fieldname
+
+`search[k]=val` - advanced filter options
+
+`ldate=date.toISOString` - last date, offset by date
+
 TODO
 ========
 * avg, sum aggregation
