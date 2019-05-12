@@ -1,10 +1,11 @@
 Simple, async, ES6 based module to get statistics quickly from mongodb by dates to [chartjs](https://chartjs.org/)
 
 [Demo](https://safiullin.io/mongodb-stats2/)
+[changelog](changelog.md)
 
 Scope
 ============
-* aggregate by today, week, month
+* aggregate by today, week, month and etc
 * stats by created or updated field
 
 Requirements
@@ -16,12 +17,9 @@ Requirements
 
 Install
 =======
-
     npm install mongodb-stats
-
 Examples
 ========
-
 * Define your stats schema
 ```javascript
 const schema = {
