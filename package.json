@@ -1,6 +1,6 @@
 {
   "name": "mongodb-stats",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Simple module to quickly get statistics from mongodb by dates to chartjs",
   "main": "index.js",
   "scripts": {
